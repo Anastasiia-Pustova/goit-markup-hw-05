@@ -544,48 +544,73 @@
         <p>Leave your contacts and we will call you back</p>
         <form class="modal-form" autocomplete="off" name="contact-form">
           <div class="modal-form-container">
-            <label for="user-name" class="form-label"></label>
-          </div>
-          <div class="container-input">
-            <input type="text" name="" class="form-input" /><svg
-              class="form-icon"
-            >
-              <use></use>
-            </svg>
+            <label for="user-name" class="form-label">Name</label>
+
+            <div class="container-input">
+              <input type="text" name="user-name" class="form-input" />
+              <svg class="form-icon" width="13" height="13">
+                <use href="./images/icons.svg#iconname"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="modal-form-container">
-            <label for="user-phone" class="form-label"></label>
-          </div>
-          <div class="container-input">
-            <input type="text" name="" class="form-input" /><svg
-              class="form-icon"
-            >
-              <use></use>
-            </svg>
+            <label for="user-phone" class="form-label">Phone</label>
+
+            <div class="container-input">
+              <input type="text" name="user-phone" class="form-input" />
+              <svg class="form-icon" width="12" height="12">
+                <use href="./images/icons.svg#iconphone"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="modal-form-container">
-            <label for="user-email" class="form-label"></label>
-          </div>
-          <div class="container-input">
-            <input type="text" name="" class="form-input" /><svg
-              class="form-icon"
-            >
-              <use></use>
-            </svg>
+            <label for="user-email" class="form-label">Email</label>
+
+            <div class="container-input">
+              <input type="text" name="user-email" class="form-input" />
+              <svg class="form-icon" width="15" height="12">
+                <use href="./images/icons.svg#iconmail"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="modal-form-container">
-            <label for="user-comment" class="form-label"></label>
+            <label for="user-comment" class="form-label">Comment</label>
+
+            <div class="container-input">
+              <input type="text" name="user-comment" class="form-input" />
+              <svg class="form-icon" width="13" height="13">
+                <use href="./images/icons.svg#iconcomment"></use>
+              </svg>
+            </div>
           </div>
-          <div class="container-input">
-            <input type="text" name="" class="form-input" /><svg
-              class="form-icon"
-            >
-              <use></use>
-            </svg>
+
+          <div class="modal-form-container checkbox__form-container">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="form-input-checkbox visually-hidden"
+              required
+            />
+            <label for="user-privacy" class="privacy-form-checkbox-label">
+              <span class="callback__form-checkbox-icon">
+                <svg
+                  width="10"
+                  height="8"
+                  class="privacy__form-checkbox-icon-svg"
+                >
+                  <use href="./images/icons.svg#iconclick"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="accept__form-privacy-link">Privacy Policy</a>
+            </label>
           </div>
+          <button class="btn-submit" type="submit">Send</button>
         </form>
       </div>
     </div>
