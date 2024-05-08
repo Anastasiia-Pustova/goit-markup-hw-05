@@ -578,8 +578,8 @@ color: #f4f4fd;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-close-btn:hover,  .modal-close-btn.modal-close-btn:focus {
@@ -587,13 +587,17 @@ color: #f4f4fd;
     border: none;
 }
 
-.modal-close-btn:hover ~ .modal-close-btn-icon, 
-.modal-close-btn:focus ~ .modal-close-btn-icon {
+.modal-close-btn:hover .icon, 
+.modal-close-btn:focus .icon {
     fill: #ffffff;
 }
 
+.icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .callback {
-    
+
 }
 
 
