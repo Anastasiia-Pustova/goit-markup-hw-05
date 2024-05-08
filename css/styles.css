@@ -527,7 +527,7 @@ color: #f4f4fd;
 
 /* ======== BACKDROP STYLES ============= */
 
-.backdrop {
+.backdrop .is-open {
     background-color: rgba(46, 47, 66, 0.4);;
     position: fixed;
     top: 0;
@@ -552,10 +552,10 @@ color: #f4f4fd;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
                 0 1px 3px 0 rgba(0, 0, 0, 0.12),
                 0 2px 1px 0 rgba(0, 0, 0, 0.2);;
-    max-width: 408px;
-    max-height: 584px;
+    width: 408px;
+    height: 584px;
     overflow-y: auto;
-    
+    padding: 72px 24px 24px 24px;
 }
 
 .modal-backdrop.is-open {
