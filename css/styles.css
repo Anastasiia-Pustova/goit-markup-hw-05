@@ -527,7 +527,7 @@ color: #f4f4fd;
 
 /* ======== BACKDROP STYLES ============= */
 
-.backdrop {
+.modal-backdrop {
     background-color: rgba(46, 47, 66, 0.4);;
     position: fixed;
     top: 0;
