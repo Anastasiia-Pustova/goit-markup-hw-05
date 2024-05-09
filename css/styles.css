@@ -673,14 +673,22 @@ border-color: #4D5AE5;
     margin-bottom: 24px;
 }
 
-.label {
+.container-input {
+    margin-bottom: 16px;
+}
+
+.modal-form-container {
+    margin-bottom: 24px;
+}
+
+.privacy-form-checkbox-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;  
 }
 
-.span {
+.callback__form-checkbox-icon {
         width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
@@ -692,7 +700,7 @@ border-color: #4D5AE5;
         fill: transparent;
 }
 
-.form-input-checkbox:checked + .privacy-form-checkbox-label .privacy__form-checkbox-icon-svg {
+.form-input-checkbox:checked .callback__form-checkbox-icon  {
     background-color: #404bbf;
     border: none;
     fill:  #F4F4FD;
