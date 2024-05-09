@@ -670,21 +670,25 @@ margin-bottom: 16px;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.textarea:focus{
+.textarea:focus {
 border-color: #4D5AE5;
 }
 
-.comment {
-    margin-bottom: 24px;
-}
 
-.container-input {
+
+.comment {
     margin-bottom: 16px;
 }
 
-.modal-form-container {
+.container-input {
+    margin-bottom: 8px;
+}
+
+.checkbox__form-container {
     margin-bottom: 24px;
 }
+
+
 
 .privacy-form-checkbox-label {
     font-size: 12px;
