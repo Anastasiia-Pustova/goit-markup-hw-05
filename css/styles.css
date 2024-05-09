@@ -514,6 +514,37 @@ color: #f4f4fd;
     margin-bottom: 16px;
 }
 
+.modal-container-footer-p {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-form {
+
+}
+
+.footer-label {
+
+}
+
+.email-input {
+
+}
+
+.btn-subscribe-submit {
+
+}
+
+.icon-footer {
+    
+}
+
+
+
 /* ======== BACKDROP STYLES ============= */
 
 .modal-backdrop  {
@@ -674,20 +705,18 @@ margin-bottom: 16px;
 border-color: #4D5AE5;
 }
 
-
+.container-input {
+    margin-bottom: 8px;
+}
 
 .comment {
     margin-bottom: 16px;
 }
 
-.container-input {
-    margin-bottom: 8px;
-}
 
 .checkbox__form-container {
     margin-bottom: 24px;
 }
-
 
 
 .privacy-form-checkbox-label {
